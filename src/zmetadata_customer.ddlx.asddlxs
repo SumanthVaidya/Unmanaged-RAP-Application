@@ -1,0 +1,38 @@
+@Metadata.layer: #CORE
+annotate entity ZP_cds_View
+    with 
+{
+
+@UI.facet: [{ position: 10,
+            label : 'Customer',
+            purpose: #STANDARD,
+            type: #IDENTIFICATION_REFERENCE
+            
+             }]
+
+@UI: { lineItem: [{ position: 10, label: 'Cusomer ID' }],
+       identification: [{ position: 10,label: 'Cusomer ID' }] }
+    Customerid;
+@UI: { lineItem: [{ position: 20, label: 'First Name' }],
+       identification: [{ position: 20, label: 'First Name' }] }    
+    Firstname;
+@UI: { lineItem: [{ position: 30, label: 'Last Name' }],
+       identification: [{ position: 30, label: 'Last Name' }] }    
+    Lastname;
+@UI: { lineItem: [{ position: 40, label: 'Title' }],
+       identification: [{ position: 40,label: 'Title' }] }    
+    Title;
+@UI: { lineItem: [{ position: 50, label: 'Street' }],
+       identification: [{ position: 50, label: 'Street'  }] }    
+    Street;
+@UI: { lineItem: [{ position: 60, label: 'Postal Code' }],
+       identification: [{ position: 60, label: 'Postal Code'  }] }    
+    Postalcode;
+@UI: { lineItem: [{ position: 70, label: 'City' }],
+       identification: [{ position: 70, label: 'City' }] }    
+    City;
+@UI: { lineItem: [{ position: 80, label: 'Country Code' }],
+       identification: [{ position: 80, label: 'Country Code' }] }    
+    Countrycode;
+    
+}
